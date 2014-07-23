@@ -1,0 +1,14 @@
+{
+  "name": "adapt-contrib-mobileOnlyText",
+  "homepage": "https://github.com/adaptlearning/adapt-contrib-mobileOnlyText",
+  "authors": [
+    "Ryan Lafferty <ryanl@learningpool.com"
+  ],
+  "description": "",
+  "main": "/js/adapt-contrib-mobileOnlyText.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3"
+}
