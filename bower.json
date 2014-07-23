@@ -1,5 +1,6 @@
 {
   "name": "adapt-contrib-mobileOnlyText",
+  "version": "0.1.0",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-mobileOnlyText",
   "authors": [
     "Ryan Lafferty <ryanl@learningpool.com"
