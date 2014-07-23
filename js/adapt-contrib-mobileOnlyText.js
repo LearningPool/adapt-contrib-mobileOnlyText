@@ -38,8 +38,8 @@ define(function(require) {
                 data from components.json
                 */
                 if (Adapt.device.screenSize == "small") {
-                     var selector = '.' + this.model.get('_id');
-                     selector+=".mobileOnly";
+                    var selector = '.' + this.model.get('_id');
+                    selector += ".mobileOnly";
                     if(!($(selector)[0])){
                         var template = Handlebars.templates["mobileOnlyText"];
                         var data = this.model.attributes;
@@ -48,16 +48,16 @@ define(function(require) {
                         var $component = $(componentID);
 
                         $component.append(this.$el.html(template(data)));
-                        }
+                    }
                 }
                 //If the screen size isn't small, every mobile only component is removed.
                 else {
                     $(".mobileOnly."+this.model.get("_id")).remove();
-                 }
+                }
             }
         });
 
-    new MobileOnlyView({model: pageModel});
+        new MobileOnlyView({model: pageModel});
     }
 
     Adapt.on('router:page', function(pageModel) {
@@ -73,6 +73,7 @@ define(function(require) {
                 return component.attributes._mobileText._isEnabled;
             }
         });
+
         if (enabledMobileComponents.length > 0) {
             setupMobileOnlyView(pageModel, enabledMobileComponents);
         }
