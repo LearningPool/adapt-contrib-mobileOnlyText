@@ -11,5 +11,7 @@
     "adapt-plugin",
     "adapt-extension"
   ],
+  "displayName": "Mobile Only Text",
+  "extension": "mobileOnlyText",
   "license": "GPLv3"
 }

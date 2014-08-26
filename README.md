@@ -7,7 +7,7 @@ To add this extension to a component, find the component in components.json and 
 
 ```
 "_mobileText": {
-            "_isEnabled": true,
-            "text":"Insert your text here. <strong>HTML</strong> can also be used."
-        }
+    "_isEnabled": true,
+    "text":"Insert your text here. <strong>HTML</strong> can also be used."
+}
 ```
