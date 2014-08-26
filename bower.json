@@ -5,7 +5,7 @@
   "authors": [
     "Ryan Lafferty <ryanl@learningpool.com"
   ],
-  "description": "",
+  "description": "An extension which allows extra text to appear which is only rendered in the 'small' (mobile) screen size",
   "main": "/js/adapt-contrib-mobileOnlyText.js",
   "keywords": [
     "adapt-plugin",
