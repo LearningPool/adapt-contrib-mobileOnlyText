@@ -1,0 +1,22 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "properties":{
+    "_mobileText": {
+      "type":"object",
+      "required":false,
+      "properties":{
+        "_isEnabled": {
+          "type":"boolean",
+          "required":true
+        },
+        "text": {
+          "type":"string",
+          "required":false
+         }
+      }
+    }
+  }
+}
+
